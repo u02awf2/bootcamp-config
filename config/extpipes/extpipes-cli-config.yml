@@ -50,6 +50,7 @@ rawdbs:
                         role: Bootcamp 04 Administrator
                         send-notification: false
   # list of raw-dbs > containing rawtables > containing pipelines
+  # update
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
       dataset-external-id: src:002:opcua:db
