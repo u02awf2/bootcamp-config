@@ -62,12 +62,11 @@ bootstrap:
                 idp-source-id: 67e94449-5d06-4804-b6ab-8a655148c925
                 idp-source-name: bootcamp-04-test-admin
               - cdf-group: cdf:all:owner
-                idp-source-id: 857cb75c-856b-4cfb-a7f6-8da2af8f5880  # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-04-test-all-owner  # i.e. bootcamp-01-test-all-owner
+                idp-source-id: 857cb75c-856b-4cfb-a7f6-8da2af8f5880 # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-04-test-all-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: 69ca2bee-ca30-4725-a1da-41620f06ab7d  # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-04-test-all-read  # i.e. bootcamp-01-test-all-read
-
+                idp-source-id: 69ca2bee-ca30-4725-a1da-41620f06ab7d # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-04-test-all-read # i.e. bootcamp-01-test-all-read
         - cdf-project: cdf-bootcamp-04-prod
           mappings:
               - cdf-group: cdf:root
@@ -83,7 +82,6 @@ bootstrap:
         # Typical config will have a namespace for data sources ("src") and a namespace for use cases ("uc")
         - ns-name: src
           description: Data sources for the Ice Cream Factory # HINT
-
           # Node names will normally follow src:001:srcname or uc:001:usecasename naming convention
           ns-nodes:
               - node-name: src:001:sap
@@ -94,7 +92,6 @@ bootstrap:
         # Typical config will have separate namespace by data source ("src") and use cases ("uc")
         - ns-name: uc
           description: Use cases representing the data/products
-
           # Description names will normally follow src:001:srcname or uc:001:usecasename naming convention
           ns-nodes:
               - node-name: uc:001:oee
