@@ -51,7 +51,7 @@ rawdbs:
                         send-notification: false
   # list of raw-dbs > containing rawtables > containing pipelines
     - rawdb-name: src:002:opcua:db
-      dataset-external-id: src:002:opcua:db
+      dataset-external-id: src:002:opcua:ds
       short-name: sap
       rawtables:
           - rawtable-name: datapoints
