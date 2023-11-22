@@ -1,3 +1,4 @@
+  --TEST
   SELECT
     external_id AS externalId,
     IF(
